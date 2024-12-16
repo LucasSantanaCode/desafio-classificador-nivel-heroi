@@ -1,10 +1,10 @@
 // Variáveis
 let nomeHeroi = "Felipão Guerreiro"
-let xpHeroi = 9500
+let xpHeroi = -1
 let rankHeroi;
 
 // Estrutura de Decisão
-if(xpHeroi <= 1001 && xpHeroi <= 2000){
+if(xpHeroi >= 1001 && xpHeroi <= 2000){
     rankHeroi = "Bronze"
 }else if(xpHeroi >= 2001 && xpHeroi <= 5000){
     rankHeroi = "Prata"
@@ -12,7 +12,7 @@ if(xpHeroi <= 1001 && xpHeroi <= 2000){
     rankHeroi = "Ouro"
 }else if(xpHeroi >= 7001 && xpHeroi <= 8000){
     rankHeroi = "Platina"
-}else if(xpHeroi >= 8001 && xpHeroi <= 9001){
+}else if(xpHeroi >= 8001 && xpHeroi <= 9000){
     rankHeroi = "Ascendente"
 }else if(xpHeroi >= 9001 && xpHeroi <= 10000){
     rankHeroi = "Imortal"
