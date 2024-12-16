@@ -1,10 +1,10 @@
 // Variáveis
 let nomeHeroi = "Felipão Guerreiro"
-let xpHeroi = 1500
+let xpHeroi = 100010
 let rankHeroi;
 
 // Estrutura de Decisão
-switch(xpHeroi > -1){
+switch(true){
     case xpHeroi >= 0 && xpHeroi <= 1000:
     rankHeroi = "Ferro";
     break;
@@ -34,7 +34,7 @@ switch(xpHeroi > -1){
     break;
 
     default:
-    rankHeroi = "[Invalido]";
+    rankHeroi = "Erro: Não é possivel classificar seu Ranking de Herói";
 }
 
 // Sáidas
